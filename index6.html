@@ -39,21 +39,21 @@
         </head>
     <body>
     
-    <h2>My First Sub Window</h2>
+    <h2><font color="white">My First Sub Window</font></h2>
     
     <form action="/action_page.php"> 
         <button type="button" onclick="mydiv1()">Select website</button>
         <button type="button" onclick="mydiv2()">Type your own URL</button>
         <div id="div1">
             <br></br>
-                Select your favourite website
+                <font color="white">Select your favourite website</font>
       <select id="search">
         <option value="Wikipedia">Wikipedia</option>
         <option value="Bing">Bing</option>
         <option value="Spotify">Allen</option>
         <option value="Google">Google</option>
       </select></div>
-      <div id="div2"><br></br>Type your URL here
+      <div id="div2"><br></br><font color="white">Type your URL here</font>
           <input type="text" id='input'>
       </div>
       <input type="button" value="Go" onclick="myfunction()">
@@ -62,8 +62,8 @@
             <iframe id="myiframe" width=100% height=85%></iframe>
     <!-- </div></div></div> -->
     
-    <div id="div3"><font color="white">Set subwindow size</font><input type ="text" id="height1" size="2">px<input type="text" id="width1" size="2">px
-    <button type="button" onclick="set()">Set</button></div>
+    <div id="div3"><font color="white">Set subwindow size: height=<input type ="text" id="height1" size="2">px width=<input type="text" id="width1" size="2">px
+    </font><button type="button" onclick="set()">Set</button></div>
     
     <script>
         document.getElementById("div1").style.display='none';
